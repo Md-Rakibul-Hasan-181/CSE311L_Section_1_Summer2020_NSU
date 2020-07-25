@@ -1,0 +1,3 @@
+SELECT Employee_id, last_name, job_id, hire_date, salary
+FROM employees
+WHERE Hire_date BETWEEN '1998-02-20' AND '1998-05-01'
