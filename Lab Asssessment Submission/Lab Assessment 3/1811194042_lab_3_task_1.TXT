@@ -1,0 +1,1 @@
+SELECT Last_Name, salary, (12*(salary+100) AS 'yearly_salray' from employees

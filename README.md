@@ -10,6 +10,11 @@ Department of Electrical and Computer Engineering
 This is the official Github Repository for <b>CSE311L: Database Systems Lab, Section 1, Summer 2020</b>. All course-related materials and Code submission will be facilitated here.</br> </br> 
 Instructor: <strong>Asif Ahmed Neloy</strong> (email: asif.neloy@northsouth.edu)
 
+## _Office Hour:_
+* Thursday: 7.00 pm to 8.00 pm.
+* Link: https://meet.google.com/pnd-gfcz-ssg
+* **P.S. Make Sure you have studied the class lecture and slides, and the questions are well prepared before joining.**
+
 
 </br>
 </p>
@@ -125,7 +130,7 @@ This course introduces students with database management systems for the first t
 
 ## _Project_ 
 <p align="justify">
-Will Update Later
+Submit your group member list through this excel file - https://bit.ly/2qrgpVV
 </p>
 </br>
 
