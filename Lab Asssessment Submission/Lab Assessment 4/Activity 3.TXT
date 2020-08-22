@@ -1,0 +1,3 @@
+SELECT e.Last_Name,e.Job_Id,e.Department_Id,d.Department_Name 
+FROM employees e,departments d,locations 
+WHERE l.City="Toronto"
