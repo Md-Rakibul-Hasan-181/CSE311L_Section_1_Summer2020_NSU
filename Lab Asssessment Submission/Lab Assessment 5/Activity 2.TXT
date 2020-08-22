@@ -1,0 +1,5 @@
+SELECT Job_Id, SUM(Salary)PAYROLL
+from employees
+where Job_Id NOT LIKE '%REP'
+GROUP BY Job_Id HAVING SUM(Salary)>13000
+order by SUM(salary)
