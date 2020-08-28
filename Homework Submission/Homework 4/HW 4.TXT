@@ -1,0 +1,9 @@
+1. SELECT CONCAT(first_name, ' ', last_name) AS "NAME", MIN(Salary), MAX(Salary), SUM(Salary), AVG(Salary) FROM Employees GROUP BY Job_Id
+
+2.SELECT CONCAT(first_name, ' ', last_name) AS 'Employee Name', Manager_Id, MAX(Salary) FROM Employees WHERE Manager_Id IS NOT NULL GROUP BY Manager_Id HAVING MIN(Salary) > 6000 ORDER BY Salary DESC 
+
+3.SELECT departments.Department_Name AS 'Name', departments.Location_id AS 'Location', COUNT(*) AS 'Number of People', ROUND(AVG(Employees.Salary),2) AS 'Salary' FROM departments, employees WHERE departments.Department_id = Employees.Department_Id GROUP BY departments.Department_Name 
+
+4.SELECT Job_Id , COUNT(*) FROM Employees GROUP BY Job_Id
+
+5.SELECT last_name, Salary, Commission_pct FROM Employees WHERE Commission_pct IS NULL ORDER BY Salary DESC ,Commission_pct DESC 
